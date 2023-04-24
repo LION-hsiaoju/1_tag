@@ -1,0 +1,33 @@
+.tagList {
+  display: flex;
+  align-items: flex-start;
+}
+
+.title {
+  width: 5rem;
+  padding: 0.9rem 0 0.7rem 0;
+  margin: 0 0.3rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.tag {
+  width: calc(100% - 5rem - 4.5rem);
+  height: 3rem;
+  overflow: hidden;
+}
+
+.extended {
+  width: calc(100% - 5rem - 4.5rem);
+  height: auto;
+  overflow: none;
+}
+
+.toggle {
+  margin: 0.7rem 0 0.7rem 0.8rem;
+  padding: 0.1rem 0 0.1rem 0.8rem;
+  width: 4.5rem;
+  border-left: 1px solid #ddd;
+  font-weight: 500;
+  color: #3ea5d9;
+}

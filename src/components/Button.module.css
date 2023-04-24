@@ -1,0 +1,32 @@
+button {
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  outline: none;
+  padding: 0;
+  text-align: inherit;
+  text-decoration: none;
+}
+
+.btn {
+  padding: 0.4rem 1rem;
+  margin: 0.3rem;
+  border: 1px solid #bbb;
+  border-radius: 2rem;
+  color: #444;
+}
+
+.btn:hover,
+.active {
+  filter: invert(100%);
+  color: black;
+  background-color: #0cd3cb;
+  border: 1px solid #333;
+}
+
+.icon {
+  height: 0.9rem;
+  margin-right: 0.3rem;
+}
